@@ -1,0 +1,111 @@
+body{
+    margin-top: 8vh;
+    background-color: #193048;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.logo{
+    color: #ffffff;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(-10vw);
+}
+.pic{
+    max-width: 3vw;
+}
+.pic img{
+    min-height: 60%;
+    max-width: 3vw;
+}
+.qb{
+    padding-left: 1vw;
+}
+.qb h1{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   margin-bottom: 0;
+}
+.qb p{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   margin-top: 0;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    min-width: 40vw;
+    min-height: 60vh;
+}
+.boxleft{
+    flex: 1;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.boxleft p{
+text-align: center;
+}
+.boxleft .A{
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, HelveticaNeueLight, HelveticaNeue-Light, HelveticaNeue, "iusHelvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #404040;
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+.boxleft .B{
+    font-family: "HelveticaNeueRoman", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: #404040;
+    margin-bottom: 20px;
+}
+.boxleft img{
+    max-width: 15vw;
+}
+.boxleft .D{
+    display: block;
+    background-color: #ec7027;
+    padding: 1px 20px;
+    line-height: 34px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #fff;
+    /* border-radius: 2px; */
+    margin-left: 5vw;
+    text-align: center;
+    border-collapse: separate;
+
+}
+.boxleft .C{
+    color: #365ebf;
+    font-size: 12px;
+    cursor: pointer;
+}
+.boxright{
+    flex: 1;
+    background-color: white;
+    padding-left: 25px;
+
+}
+.boxright input{
+    display: block;
+   margin: 3vh 0vw 1vh 0vw;
+}
+.ius-header{
+    line-height: 1.5;
+    font-family: 'Helvetica Neue',Helvetica,Arial,san serif;
+    text-align: left;
+    box-sizing: border-box;
+    border-collapse: separate;
+    font-size: 23px;
+    font-weight: 300;
+    display: block;
+    padding-top: 1ch;
+}
